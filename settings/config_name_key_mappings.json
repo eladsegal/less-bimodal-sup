@@ -1,0 +1,19 @@
+{
+    "pretrained_language_model": "lm",
+    "pretrained_vision_model": "vm",
+    "datamodule.batch_size": "bsz",
+    "trainer.accumulate_grad_batches": "gacc",
+    "trainer.gpus": "gpus",
+    "datamodule.image_transform.train._target_": "train_img_tr",
+    "datamodule.image_transform.validation._target_": "val_img_tr",
+    "datamodule.image_transform.test._target_": "test_img_tr",
+    "model.optimizer.lr": "lr",
+    "model.lr_higher": "lrh",
+    "model.lr_lower": "lrl",
+    "trainer.max_epochs": "epochs",
+    "model.fusion_type": "fusion",
+    "model.transformer_config.num_hidden_layers": "layers",
+    "trainer.limit_train_batches": "ltrb",
+    "trainer.limit_val_batches": "lvb",
+    "trainer.limit_test_batches": "ltb"
+}

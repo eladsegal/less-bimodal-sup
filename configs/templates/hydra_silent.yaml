@@ -1,0 +1,12 @@
+hydra:
+  run:
+    dir: .
+  output_subdir: null
+  hydra_logging:
+    version: 1
+    root: null
+    disable_existing_loggers: false
+  job_logging:
+    version: 1
+    root: null
+    disable_existing_loggers: false

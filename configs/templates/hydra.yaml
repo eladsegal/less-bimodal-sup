@@ -1,0 +1,27 @@
+hydra:
+  run:
+    dir: ../outputs/${hydra.job.name}_${now:%Y-%m-%d}_${now:%H-%M-%S}
+  job_logging:
+    formatters:
+      simple:
+        format: '[%(asctime)s][%(name)s][%(levelname)s] - %(message)s'
+    handlers:
+      console:
+        class: logging.StreamHandler
+        formatter: simple
+        stream: ext://sys.stdout
+      error:
+        class: logging.StreamHandler
+        level: ERROR
+        formatter: simple
+        stream: ext://sys.stderr
+      file:
+        class: logging.FileHandler
+        formatter: simple
+        filename: out.log
+    root:
+      level: INFO
+      handlers:
+      - console
+      - error
+      - file

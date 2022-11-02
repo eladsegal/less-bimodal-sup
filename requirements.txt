@@ -1,0 +1,29 @@
+git+http://github.com/eladsegal/pytorch-lightning@stable#egg=pytorch-lightning # Forked from commit 9b011606f354ab6afa4135cc8bfe1339a06b3aeb in the original repo
+datasets==1.18.3
+transformers==4.18.0
+torchmetrics==0.7.2
+
+sentencepiece>=0.1.91,!=0.1.92
+hydra-core==1.1.1
+omegaconf==2.1.1
+jsonnet==0.17.0
+wandb==0.12.11
+gputil==1.4.0
+psutil==5.8.0
+
+matplotlib==3.4.3
+seaborn==0.11.2
+
+lmdb==1.3.0
+fire==0.4.0
+
+redis==4.2.2
+pottery==3.0.0
+
+jupyter==1.0.0
+
+# deepdiff # Optional, useful for finding diff between objects
+
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.10.1+cu111
+torchvision==0.11.2+cu111

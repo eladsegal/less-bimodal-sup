@@ -1,0 +1,12 @@
+is_continuation
+specific_weights_to_save
+datamodule.ans2label_current_path
+datamodule.artifacts_dir
+trainer.strategy.find_unused_parameters
+datamodule.image_transform.train.interpolation
+datamodule.image_transform.validation.interpolation
+datamodule.image_transform.test.interpolation
+datamodule.image_transform.train.normalization
+datamodule.image_transform.validation.normalization
+datamodule.image_transform.test.normalization
+callbacks_dict.checkpoint.specific_weights_to_save

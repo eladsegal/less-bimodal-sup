@@ -1,0 +1,5 @@
+{
+    trainer+: {
+        profiler: "advanced",
+    },
+}

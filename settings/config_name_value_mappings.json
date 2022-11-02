@@ -1,0 +1,4 @@
+{
+    "src.data.datasets.utils.image.transforms.center_crop_transform_randaug": "center_crop_randaug",
+    "src.data.datasets.utils.image.transforms.center_crop_transform": "center_crop"
+}
