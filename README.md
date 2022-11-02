@@ -1,7 +1,7 @@
 # Training Vision-Language Models with Less Bimodal Supervision
 
 This repository contains the official code of the paper: ["Training Vision-Language Models with Less Bimodal Supervision
-"](https://arxiv.org/abs/).
+"](https://arxiv.org/abs/2211.00262).
 
 ## NOTE: The training commands to reproduce the experiments from the paper will be added soon, along with code to generate the tables and the figures.  
 Also, documentation for general usage of the code will be added.
